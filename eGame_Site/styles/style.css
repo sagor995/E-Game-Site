@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*it will removes all the defaults styles applied by the browser by using upper code*/
+
+body{background: #FFF8DC;}
+
+.main_wrapper{
+
+width: 1020px;
+display:block;
+overflow:auto;
+margin: auto;
+
+
+}
+
+.header_wrapper{
+width: 1000px;
+height: 160px;
+margin: auto;
+}
+
+#header_logo{float: left;
+	height: 150px;
+    width: 150px;}
+#header_banner{float: right;
+	height: 150px;
+	width:850px;
+}
+
+
+#shopping_cart{
+		width: 1000px;
+		height: 40px;
+		background: black;
+		color: white;
+
+	}
+
+
+/*Menu Style starts*/
+
+.menubar{
+	height: 50px;
+	width: 1000px;
+	background: #228B22;
+	color: white;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+	line-height: 45px;
+	float: right;
+}
+
+#menu li{
+	list-style: none; /*bullets will be removed*/
+		display: inline;
+}
+
+#menu a{
+
+	text-decoration: none; /*underline will be removed*/
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	font-size: 17px;
+	font-family: sans-serif;
+	font-style: oblique;
+}
+
+#menu a:hover{Color: black; }
+
+/*Menu Style Ends*/
+
+#form{
+	float: right;
+	padding-right: 5px;
+	line-height: 45px;
+}
+
+
+.slide_wrapper{
+width: 1000px;
+height: 310px;
+margin: auto;
+background: #FFFFFF;
+}
+
+#slide_area{
+width: 800px;
+height: 300px;
+float: left;
+background: orange;
+
+}
+#Adsbar{
+width: 200px;
+height: 300px;
+overflow: auto;
+background: #000000;
+float: right;
+
+}
+
+#stitle{
+	text-decoration: none; /*underline will be removed*/
+	color:  white;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+#devs{
+	line-height: 10px;
+}
+
+#devs li{
+	list-style: none; /*bullets will be removed*/
+}
+
+#devs a{
+	font-style: oblique;
+	text-decoration: none; /*underline will be removed*/
+	color: #ffa500;
+	padding: 8px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+#devs a:hover{Color: white; }
+
+
+#content_area{
+width: 1000px;
+display:block;
+margin-top: -10px;
+background:#006400;
+}
+
+#products_box{
+width: 1000px;
+display:block;
+overflow:auto;
+text-align: center;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+#single_product{
+
+float: left;
+margin-left: 15px;
+padding: 10px;
+
+}
+
+#single_product img{
+
+	border: 2px solid black;
+}
+
+	/*View page Design Start*/
+#gameTitle{
+	padding: 2px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px inset;
+	font-family: Verdana;
+	font-weight: bolder;
+}
+#gameHomePAgeTitle{
+	
+	height: 20px;
+	width: 200px;
+	border: 1px inset;
+	
+	margin-bottom: 2px;
+}
+
+#gameImage{
+	float: left;
+	margin-right:30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 400px;
+	border: 2px solid black;
+}
+#detailsBox{
+	margin-left:120px;
+	background-color: #C0C0C0;
+	width: 480px;
+	height: auto;
+	border: 2px solid;
+	float: right;
+}
+#description{
+	border: 2px outset black;
+	font-family: Verdana;
+	font-weight: bolder;
+}
+#price{
+	color: white;
+	height: 20px;
+	width: 200px;
+	border: 1px ridge;
+	font-family: Geneva;
+}
+
+/*View Page Design End*/
+
+
+#feature_area{
+width: 1000px;
+}
+#banner_area{
+
+width: 1000px;
+background: white;
+height: 200px;
+margin-bottom: 20px;
+}
+
+#suggestions{
+	width: 996px;
+	background-color:#808080;
+	height: 300px;
+	border: 2px solid black;
+}
+#youMayAlsoLike{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	border: 2px solid black;
+	font-family: Verdana, Arial, Geneva, Arial Black;
+	font-weight: bolder;
+}
+
+#slide_product{
+
+float: left;
+margin-left: 15px;
+padding: 10px;
+
+}
+
+#slide_product img{
+
+	border: 2px solid white;
+}
+
+
+
+
+.footer_wrapper{
+width: 1000px;
+height: 100px;
+background: #000000;
+clear: both;
+}
+h3{
+	line-height: 100px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: #008CBA;border-radius: 4px;} /* Blue */
+
+/*Support starts*/
+#column {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+}
+#column a{
+	text-align: left;
+	font-style: oblique;
+	text-decoration: underline; /*underline will be removed*/
+	color: white;
+	padding: 15px;
+	margin: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+#column  li{
+	list-style: none; /*bullets will be removed*/
+}
+#column a:hover{
+	color: #ffa500;
+}
+.suppoer_box{
+	background-color: grey;
+}
+
+
+/*supports ends*/
+#news {
+    float: left;
+    height: 310px;
+
+    width: 300px;
+    padding: 10px;
+    overflow: auto;
+}
+
+#contact_us{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+	font-style: oblique;
+}
+#contact_us:hover{
+	color: green;
+
+}
